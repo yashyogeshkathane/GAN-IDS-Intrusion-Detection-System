@@ -1,0 +1,22 @@
+# Ignore the virtual environment folder
+tf_env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints (if you use notebooks)
+.ipynb_checkpoints/
+
+# Ignore system files (for macOS and Windows users)
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore large data files
+preprocessed_data_full.pkl
+kddcup.data.corrected
