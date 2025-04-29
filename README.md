@@ -164,6 +164,20 @@ With a high ROC-AUC score of **0.98**, the system shows strong potential for cyb
 
 ## How to Run This Project
 
+### Prerequisites
+- Python 3.10
+- Required Python packages (install using `pip install -r requirements.txt`)
+
+### Dataset
+The project requires two dataset files which are too large to be included in the repository. Please download them from the following links:
+
+1. Original dataset: [kddcup.data.corrected](https://mega.nz/file/0dh1zKYR#BjeqLrZJm5x4xqugwOk6gjsAbMZA6fCKXZVn9v_818E)
+2. Preprocessed dataset: [preprocessed_data_full.pkl](https://mega.nz/file/RFQ33S7Q#spPvV3KxYqdl_ir6YCh1Mr04U7Gbzl-zmDnOJP46TMA)
+
+Place these files in the project root directory before running the code.
+
+### Running the Project
+
 ### 1. Clone the Repository
 ```bash
 git clone <your-repo-url>
